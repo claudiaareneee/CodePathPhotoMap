@@ -69,7 +69,6 @@ class PhotoMapViewController: UIViewController, UIImagePickerControllerDelegate,
         let annotation = MKPointAnnotation()
         annotation.coordinate = locationCoordinate
         annotation.title = "My picture"
-        
         mapView.addAnnotation(annotation)
         
         self.navigationController?.popToViewController(self, animated: true)
@@ -85,7 +84,6 @@ class PhotoMapViewController: UIViewController, UIImagePickerControllerDelegate,
             annotationView!.canShowCallout = true
             annotationView!.leftCalloutAccessoryView = UIImageView(frame: CGRect(x:0, y:0, width: 50, height:50))
         }
-        
         let imageView = annotationView?.leftCalloutAccessoryView as! UIImageView
         imageView.image = UIImage(named: "camera")
         

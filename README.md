@@ -9,15 +9,15 @@
 
 **PhotoMap** is an app that allows the user to search for locations using the [Foursquare API](https://developer.foursquare.com/docs) and create a pin with an image annotation.
 
-Time spent: **X** hours spent in total
+Time spent: **5** hours spent in total
 
 ## User Stories
 
 The following **required** user stories are complete:
 
-- [ ] User can view a map (+2pt)
-- [ ] User can take a photo (+1pt)
-- [ ] User can tag a location (+1pt)
+- [x] User can view a map (+2pt)
+- [x] User can take a photo (+1pt)
+- [x] User can tag a location (+1pt)
 - [ ] User can drop a pin with image annotation (+1pt)
 
 The following **stretch** user stories are implemented:
@@ -29,8 +29,7 @@ The following **stretch** user stories are implemented:
 
 Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
 
-1.
-2.
+1. I would like to work more with the pins and see what other attributes that pins can have
 
 ## Video Walkthrough
 
@@ -41,6 +40,8 @@ Here's a walkthrough of implemented user stories:
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
+
+- I did not have enough time to trouble shoot why my images were not showing on the pins. The code is there, but I am missing something. I need to go back and fix that. Currently, the pin title updates, but the image does not.
 
 Describe any challenges encountered while building the app.
 
